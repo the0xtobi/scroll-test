@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <h1>Charlie's Place</h1>
       <div className="wrapper">
         <div className='item item1'></div>
@@ -17,6 +17,7 @@ function App() {
         <div className='item item8'></div>
       </div>
       <h2>Top trending products</h2>
+      <div className='time'>2:00pm</div>
     </div>
 
   );

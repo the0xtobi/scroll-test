@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.app{
+  max-width: 1400px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.time{
+  padding: 30px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img{
@@ -9,16 +29,21 @@ img{
 }
 
 h1{
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
   font-size: 45px;
+  padding-top: 20px;
   margin-bottom: 10px;
 }
 
 h2{
-  font-size: 50px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
 }
 
 .wrapper{
-padding-left: 40px;
+/* padding-left: 40px; */
   height: 60vh;
   display: flex;
   gap: 40px;
@@ -46,7 +71,7 @@ padding-left: 40px;
 }
 
 .item5{
-  background: top/cover url(https://cdn.shopify.com/s/files/1/1037/5246/products/Argon-Sms-white-17.jpg?v=1614120471&width=1445) no-repeat;
+  background: top/cover url(https://www.hallensteins.com/content/products/ab-flamingo-bucket-hat-blue-front-10003836.jpg?width=2058) no-repeat;
 }
 
 .item2{
