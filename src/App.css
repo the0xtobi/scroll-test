@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+img{
+  width: 100%;
+}
+
 h1{
   font-size: 45px;
   margin-bottom: 10px;
@@ -14,8 +18,10 @@ h2{
 }
 
 .wrapper{
-  height: 30vh;
+padding-left: 40px;
+  height: 60vh;
   display: flex;
+  gap: 40px;
   overflow-x: auto;
   margin-bottom: 10px;
 }
@@ -28,8 +34,41 @@ h2{
 .wrapper .item{
   min-width: 400px;
   height: inherit;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   line-height: 110px;
   text-align: center;
   background-color: #ddd;
+  border-radius: 10px;
+}
+
+.item4{
+  background: top/cover url(https://media.gq.com/photos/5de7d433ac31250008d318e6/master/pass/00-dior-makeup-mens-beauty-gq-december-2019.jpg) no-repeat;
+}
+
+.item5{
+  background: top/cover url(https://cdn.shopify.com/s/files/1/1037/5246/products/Argon-Sms-white-17.jpg?v=1614120471&width=1445) no-repeat;
+}
+
+.item2{
+  background: top/cover url(https://cdn.shopify.com/s/files/1/0787/5255/products/bando-3p-vans-animal-mix-bucket-hat-02.jpg?v=1675810725) no-repeat;
+}
+
+.item3{
+  background: top/cover url(https://cdn.shopify.com/s/files/1/0221/0765/2176/products/Big-Stock-Bucket-Hat-Mustard-Front-Web_1445x.jpg?v=1664738105) no-repeat;
+}
+
+.item1{
+  background: top/cover url(https://cdn.shopify.com/s/files/1/2294/5259/products/GM92381P_DT-1F22_1400x.jpg?v=1660031175) no-repeat;
+}
+
+.item6{
+  background: top/cover url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F02%2Fcb%2F02cb9387ebd81c1230228d874da696232f74042d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]) no-repeat;
+}
+
+.item7{
+  background: top/cover url(https://media.boohoo.com/i/boohoo/fzz15501_stone_xl?w=537&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit) no-repeat;
+}
+
+.item8{
+  background: top/cover url(https://cdn.shopify.com/s/files/1/0150/7056/products/TheBeachBoutique-March22-Codie-687_2000x2000.jpg?v=1658235783) no-repeat;
 }
